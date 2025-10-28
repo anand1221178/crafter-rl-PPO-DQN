@@ -1,0 +1,33 @@
+CRAFTER EVALUATION REPORT - PPO
+Generated: 20251022_165444
+============================================================
+
+SUMMARY METRICS:
+  Crafter Score:          8.36%
+  Average Reward:         6.45
+  Average Length:       197.69
+  Episodes Evaluated:      100
+
+ACHIEVEMENT UNLOCK RATES:
+  Collect Coal           1.00%
+  Collect Diamond        0.00%
+  Collect Drink         27.00%
+  Collect Iron           0.00%
+  Collect Sapling       96.00%
+  Collect Stone         13.00%
+  Collect Wood          95.00%
+  Defeat Skeleton        2.00%
+  Defeat Zombie         56.00%
+  Eat Cow               51.00%
+  Eat Plant              0.00%
+  Make Iron Pickaxe      0.00%
+  Make Iron Sword        0.00%
+  Make Stone Pickaxe     0.00%
+  Make Stone Sword       0.00%
+  Make Wood Pickaxe     60.00%
+  Make Wood Sword       65.00%
+  Place Furnace          0.00%
+  Place Plant           83.00%
+  Place Stone           13.00%
+  Place Table           89.00%
+  Wake Up               84.00%

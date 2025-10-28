@@ -48,13 +48,6 @@ models/ppo/*
 !models/dqn/*_eval*.pt
 !models/ppo/*_eval*.zip
 
-# Results: ignore large result directories
-results/
-!results/.gitkeep
-!results/paper_figures/
-results/paper_figures/*.png  # Ignore PNGs (too large)
-!results/paper_figures/*.pdf # Keep PDFs only
-
 # Hyperparameter sweep results (very large!)
 sweep_results/
 
@@ -94,6 +87,7 @@ tmp/
 *.pkl
 *.pickle
 *.ckpt
+*.pt
 *.pth
 *.safetensors
 
@@ -109,10 +103,6 @@ logdir/*/*.pt
 *.mp4
 *.avi
 *.gif
-
-# Large PNG images from plots
-results/paper_figures_combo/
-results/*/*.png
 
 # Compiled LaTeX files
 report/*.aux

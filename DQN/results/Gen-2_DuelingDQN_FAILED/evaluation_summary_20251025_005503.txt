@@ -1,0 +1,33 @@
+CRAFTER EVALUATION REPORT - DQN
+Generated: 20251025_005503
+============================================================
+
+SUMMARY METRICS:
+  Crafter Score:          2.88%
+  Average Reward:         2.97
+  Average Length:       178.46
+  Episodes Evaluated:     5603
+
+ACHIEVEMENT UNLOCK RATES:
+  Collect Coal           0.02%
+  Collect Diamond        0.00%
+  Collect Drink         32.86%
+  Collect Iron           0.00%
+  Collect Sapling       90.38%
+  Collect Stone          0.05%
+  Collect Wood          46.92%
+  Defeat Skeleton        0.23%
+  Defeat Zombie          8.55%
+  Eat Cow                5.85%
+  Eat Plant              0.02%
+  Make Iron Pickaxe      0.00%
+  Make Iron Sword        0.00%
+  Make Stone Pickaxe     0.00%
+  Make Stone Sword       0.00%
+  Make Wood Pickaxe      0.93%
+  Make Wood Sword        1.21%
+  Place Furnace          0.00%
+  Place Plant           87.17%
+  Place Stone            0.05%
+  Place Table           17.03%
+  Wake Up               95.45%

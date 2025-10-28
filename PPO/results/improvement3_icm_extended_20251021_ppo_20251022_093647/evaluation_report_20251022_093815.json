@@ -1,0 +1,43 @@
+{
+  "algorithm": "ppo",
+  "evaluation_date": "20251022_093815",
+  "episodes_evaluated": 100,
+  "budget": 1000000,
+  "results": {
+    "score": 7.474420453598075,
+    "reward": 6.4,
+    "length": 198.43,
+    "episodes": 100.0,
+    "achievements": {
+      "achievement_collect_coal": 1.0,
+      "achievement_collect_diamond": 0.0,
+      "achievement_collect_drink": 34.0,
+      "achievement_collect_iron": 0.0,
+      "achievement_collect_sapling": 91.0,
+      "achievement_collect_stone": 7.000000000000001,
+      "achievement_collect_wood": 98.0,
+      "achievement_defeat_skeleton": 0.0,
+      "achievement_defeat_zombie": 43.0,
+      "achievement_eat_cow": 48.0,
+      "achievement_eat_plant": 0.0,
+      "achievement_make_iron_pickaxe": 0.0,
+      "achievement_make_iron_sword": 0.0,
+      "achievement_make_stone_pickaxe": 0.0,
+      "achievement_make_stone_sword": 0.0,
+      "achievement_make_wood_pickaxe": 65.0,
+      "achievement_make_wood_sword": 69.0,
+      "achievement_place_furnace": 0.0,
+      "achievement_place_plant": 91.0,
+      "achievement_place_stone": 6.0,
+      "achievement_place_table": 89.0,
+      "achievement_wake_up": 88.0
+    }
+  },
+  "summary": {
+    "crafter_score": 7.474420453598075,
+    "geometric_mean_achievements": 7.474420453598075,
+    "average_reward_per_episode": 6.4,
+    "average_episode_length": 198.43,
+    "total_episodes": 100.0
+  }
+}

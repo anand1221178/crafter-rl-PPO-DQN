@@ -1,0 +1,43 @@
+{
+  "algorithm": "dqn",
+  "evaluation_date": "20251025_202751",
+  "episodes_evaluated": 100,
+  "budget": 1000000,
+  "results": {
+    "score": 3.996288871866537,
+    "reward": 3.7367626404494394,
+    "length": 175.5222963483146,
+    "episodes": 5696.0,
+    "achievements": {
+      "achievement_collect_coal": 0.17556179775280897,
+      "achievement_collect_diamond": 0.0,
+      "achievement_collect_drink": 33.58497191011236,
+      "achievement_collect_iron": 0.0,
+      "achievement_collect_sapling": 86.18328651685393,
+      "achievement_collect_stone": 1.3342696629213482,
+      "achievement_collect_wood": 78.98525280898876,
+      "achievement_defeat_skeleton": 0.17556179775280897,
+      "achievement_defeat_zombie": 5.28441011235955,
+      "achievement_eat_cow": 5.301966292134831,
+      "achievement_eat_plant": 0.0,
+      "achievement_make_iron_pickaxe": 0.0,
+      "achievement_make_iron_sword": 0.0,
+      "achievement_make_stone_pickaxe": 0.0,
+      "achievement_make_stone_sword": 0.0,
+      "achievement_make_wood_pickaxe": 9.216994382022472,
+      "achievement_make_wood_sword": 9.023876404494382,
+      "achievement_place_furnace": 0.0,
+      "achievement_place_plant": 82.61938202247191,
+      "achievement_place_stone": 0.6320224719101123,
+      "achievement_place_table": 55.1439606741573,
+      "achievement_wake_up": 96.01474719101124
+    }
+  },
+  "summary": {
+    "crafter_score": 3.996288871866537,
+    "geometric_mean_achievements": 3.996288871866537,
+    "average_reward_per_episode": 3.7367626404494394,
+    "average_episode_length": 175.5222963483146,
+    "total_episodes": 5696.0
+  }
+}
