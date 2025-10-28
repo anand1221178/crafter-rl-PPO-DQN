@@ -1,0 +1,125 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments (don't commit venv)
+env/
+venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Training outputs - IGNORE EVERYTHING
+logs/
+logs/*
+logdir/
+logdir/*
+
+# Models: ignore ALL models except final eval models
+models/*                    # Ignore all models by default
+!models/.gitkeep
+!models/dynaq/              # Allow dynaq folder
+!models/dqn/                # Allow dqn folder
+!models/ppo/                # Allow ppo folder
+models/dynaq/*              # Ignore contents
+models/dqn/*
+models/ppo/*
+!models/dynaq/*_eval*.pt    # Allow eval models (dynaq_baseline_eval1.pt, etc)
+!models/dqn/*_eval*.pt
+!models/ppo/*_eval*.zip
+
+# Results: ignore large result directories
+results/
+!results/.gitkeep
+!results/paper_figures/
+results/paper_figures/*.png  # Ignore PNGs (too large)
+!results/paper_figures/*.pdf # Keep PDFs only
+
+# Hyperparameter sweep results (very large!)
+sweep_results/
+
+# Tensorboard
+runs/
+tensorboard/
+
+# Weights & Biases (large logs)
+wandb/run-*/
+wandb/latest-run
+wandb/debug*.log
+!wandb/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment secrets
+.env
+.env.local
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Large model/data files
+*.h5
+*.pkl
+*.pickle
+*.ckpt
+*.pth
+*.safetensors
+
+# PyTorch models (keep only final models, ignore checkpoints)
+logs/*/*.pt
+logdir/*/*.pt
+
+# Training logs (very large!)
+*.jsonl
+!results/eval*/*.jsonl
+
+# Video files
+*.mp4
+*.avi
+*.gif
+
+# Large PNG images from plots
+results/paper_figures_combo/
+results/*/*.png
+
+# Compiled LaTeX files
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.blg
+report/*.synctex.gz
+report/*.fls
+report/*.fdb_latexmk
